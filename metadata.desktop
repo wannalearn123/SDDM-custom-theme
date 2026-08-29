@@ -1,16 +1,16 @@
 [SddmGreeterTheme]
-Name=Maldives Custom
-Description=Maldives Theme
-Author=Abdurrahman AVCI
-Copyright=(c) 2013, Abdurrahman AVCI
-License=CC-BY-SA
+Name=Custom
+Description=Custom SDDM theme based on hyprland and ghostty config
+Author=wannalearn123
+Copyright=2026
+License=MIT
 Type=sddm-theme
-Version=0.1
-Website=https://github.com/sddm/sddm
-Screenshot=maldives.jpg
+Version=1.0
+Website=https://github.com/wannalearn123/SDDM-custom-theme
+Screenshot=
 MainScript=Main.qml
 ConfigFile=theme.conf
 TranslationsDirectory=translations
-Email=abdurrahmanavci@gmail.com
-Theme-Id=maldives
+Email=nurdiansyahagung277@gmail.com
+Theme-Id=custom
 Theme-API=2.0
