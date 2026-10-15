@@ -69,7 +69,7 @@
 
 	 Rectangle {
 		 anchors.fill: parent
-		 color: "#221e1e"
+		 color: "#80221e1e"
 		 //visible: primaryScreen
 
 
@@ -129,6 +129,8 @@
 					 id: name
 					 color: "#221e1e"
 					 borderColor: "#ff3333"
+					 focusColor: "#ff3333"
+					 hoverColor: "#ff6666"
 					 radius: 4
 					 textColor: "white"
 					 width: parent.width; height: 50
@@ -163,6 +165,8 @@
 					 id: password
 					 color: "#221e1e"
 					 borderColor: "#ff3333"
+					 focusColor: "#ff3333"
+					 hoverColor: "#ff6666"
 					 radius: 4
 					 textColor: "white"
 					 // width: parent.width; height: 30
