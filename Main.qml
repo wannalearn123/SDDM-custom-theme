@@ -41,7 +41,7 @@
 		 target: sddm
 
 		 onLoginSucceeded: {
-			 errorMessage.color = "steelblue"
+			 errorMessage.color = "#d77a7a"
 			 errorMessage.text = textConstants.loginSucceeded
 		 }
 
@@ -69,7 +69,7 @@
 
 	 Rectangle {
 		 anchors.fill: parent
-		 color: "#1f242d"
+		 color: "#221e1e"
 		 //visible: primaryScreen
 
 
@@ -78,8 +78,8 @@
 		 //     anchors.centerIn: parent
 		 //     width: Math.max(450, mainColumn.implicitWidth + 50)
 		 //     height: Math.max(450, mainColumn.implicitHeight + 50)
-		 //     color: "#2b303b"
-		 //     border.color: "#33ccff"
+		 //     color: "#221e1e"
+		 //     border.color: "#ff3333"
 		 //     border.width: 2
 
 		 Column {
@@ -93,7 +93,7 @@
 				 // anchors.bottom: mainColumn.top
 				 anchors.bottomMargin: 25
 
-				 color: "#33ccff"
+				 color: "#ff6666"
 				 // color: "white"
 				 timeFont.family: "JetBrains Mono Nerd Font"
 				 timeFont.pointSize: 60
@@ -127,8 +127,8 @@
 
 				 TextBox {
 					 id: name
-					 color: "#2b303b"
-					 borderColor: "#33ccff"
+					 color: "#221e1e"
+					 borderColor: "#ff3333"
 					 radius: 4
 					 textColor: "white"
 					 width: parent.width; height: 50
@@ -161,8 +161,8 @@
 
 				 PasswordBox {
 					 id: password
-					 color: "#2b303b"
-					 borderColor: "#33ccff"
+					 color: "#221e1e"
+					 borderColor: "#ff3333"
 					 radius: 4
 					 textColor: "white"
 					 // width: parent.width; height: 30
@@ -203,8 +203,8 @@
 			 //
 			 // 	 ComboBox {
 			 // 		 id: session
-			 // 		 color: "#2b303b"
-			 // 		 borderColor: "#33ccff"
+			 // 		 color: "#221e1e"
+			 // 		 borderColor: "#ff3333"
 			 // 		 textColor: "white"
 			 // 		 // width: parent.width; height: 30
 			 // 		 width: parent.width; height: 50
@@ -266,7 +266,7 @@
 			 // 	 id: loginButton
 			 // 	 text: textConstants.login
 			 // 	 font.pixelSize: 16
-			 // 	 color: "#33ccff"
+			 // 	 color: "#ff3333"
 			 // 	 width: parent.btnWidth
 			 // 	 height: 40
 			 //
@@ -279,7 +279,7 @@
 			 // 	 id: shutdownButton
 			 // 	 text: textConstants.shutdown
 			 // 	 font.pixelSize: 16
-			 // 	 color: "#33ccff"
+			 // 	 color: "#ff3333"
 			 // 	 width: parent.btnWidth
 			 // 	 height: 40
 			 //
@@ -292,7 +292,7 @@
 			 // 	 id: rebootButton
 			 // 	 text: textConstants.reboot
 			 // 	 font.pixelSize: 16
-			 // 	 color: "#33ccff"
+			 // 	 color: "#ff3333"
 			 // 	 width: parent.btnWidth
 			 // 	 height: 40
 			 //
