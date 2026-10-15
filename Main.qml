@@ -69,7 +69,7 @@
 
 	 Rectangle {
 		 anchors.fill: parent
-		 color: "#80221e1e"
+		 color: "#BF221e1e"
 		 //visible: primaryScreen
 
 
